@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - BoySwagStore</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function submitForm() {
+            // Redirect to the landing page
+            window.location.href = "landing.html";
+        }
+    </script>
+</head>
+<body>
+
+<header><h1>BoySwagStore</h1></header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart</a>
+</nav>
+
+<div class="container">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(); return false;">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Message" required></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>© 2025 BoySwagStore.</footer>
+
+</body>
+</html>
